@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.navbar{
+    color:  white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-cart{
+    height: 200px;
+    width: 250px;
+    border: 1px solid black;
+    position: absolute;
+    right: 3%;
+    color: black;
+    display: none;
+    background-color:#f9f9f9;
+    z-index: 1;
+}
+#cart:hover .nav-cart{
+    display: block;
+}
+
+.nav-cart-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.price{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.checkout{
+    margin-top: 10px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border: 1px solid black;
+    background-color: #08255f;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 0.5rem;
+}
+
+.nav-cart-list a{
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-cart-list a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.navbar-dark .nav-icon{
+    height: 3rem;
+    width: 3rem;
+    background-image: url(logo1.jpg);
+    background-size: cover;
+    border-radius: 40%;
+    margin-left: 1rem; 
+}
+
+.nav-links{
+
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style-type: none;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#cart {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+}
+#cart .cart-text {
+    font-size: 12px;
+    position: absolute;
+    top: -10px;
+    right: 1px;
+    background-color: #9E9E9E;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 50%;
+}
+
+
+
+.row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Back{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Back a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.card{
+    border-radius: 10%;
+    border: transparent;
+    color: grey;
+}
+
+.card img{
+    height: 300px;
+    border-radius: 10%;
+    overflow: hidden;
+
+}
+
+.card-body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.card-body .card-title{
+    color: grey;
+    font-size: 13px;
+    width: 100%;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+}
+.card-body a{
+    font-weight: 500;
+    border-radius: 1rem;
+    background-color: #08255f;
+}
